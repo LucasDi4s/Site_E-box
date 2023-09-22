@@ -1,0 +1,84 @@
+body{
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1;
+font-family: 'Tahoma', 'Arial';
+}
+header{
+background-color: rgb(255, 255, 255);
+    padding: 0px 0;
+}
+nav{
+position: absolute;
+top: 110px;
+right: 0;
+}
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+
+}
+nav a {
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    color: #0f0f0f;            /* Define a cor do texto */
+    font-weight: bold;         /* Define a espessura da fonte */
+    font-size: 22px;           /* Define o tamanho da fonte */
+    text-decoration: none;     /* Remove sublinhado do link */
+}
+nav a:hover {
+    color: rgb(0, 0, 0);        /* Cor do texto ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilização das listas da página */
+ul {
+    list-style: none; /* Remove marcadores de lista */
+}
+.logo_caixa {
+    width: 1400px;      /* Define a largura do contêiner */
+    position: relative; /* Define o posicionamento */
+    margin: auto;       /* Centraliza o contêiner horizontalmente */
+}
+.logo{
+    width: 50%;
+}
+
+/*--------------------------> <------------------------------*/
+
+/* Estilização do banner na parte superior da página */
+.banner {
+    width: 100%;  /* Define a largura do banner */
+    height: 55%;  /* Define a altura do banner */
+}
+
+/* Estilos para a seção "Sobre a empresa pizzaria" */
+.box_caixa {
+    width: 80px;      /* Define a largura */
+    float: left;      /* Flutua à esquerda */
+    margin: 0 20px;   /* Define margens */
+    padding-left: 10%; /* Adiciona preenchimento à esquerda */
+}
+
+/* Título da seção "Sobre a empresa" */
+.Titulo_box {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    clear: left;        /* Limpa a flutuação à esquerda anterior */
+    font-size: 2em;     /* Define o tamanho da fonte */
+    margin: 0;
+    padding: 50px 0 30px 0; /* Define margens e preenchimento */
+}
+
+/* Estilização da seção "Sobre a box" */
+.sobre-box{
+    background-color: #fffffe; /* Define a cor de fundo */
+    width: 100%; /* Define a largura */
+    padding-bottom: 20px; /* Adiciona preenchimento inferior */
+    margin: 0;
+}
+/* Estilização da seção "Mapa" */
+.mapa {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    background: linear-gradient(#fffffe, #644b06); /* Define um gradiente de fundo */
+}
+
