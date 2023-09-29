@@ -1,0 +1,266 @@
+/* Definições gerais para o corpo da página */
+body {
+    margin: 0;/* Margem zero */
+
+    padding: 0;/* Preenchimento zero */
+
+    border: 0; /* Borda zero */
+
+    line-height: 1; /* Altura da linha igual a 1 (padrão) */
+
+    font-family: 'Tahoma', 'Arial';/* Fonte da família 'Tahoma' ou 'Arial' */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(255, 255, 255);/* Cor de fundo branca */
+    padding: 0px 0;/* Preenchimento zero nas direções horizontal e vertical */
+    margin: -20px;
+}
+
+/* Estilos para o contêiner do logotipo */
+.logo_estilo{
+
+    width: 1550px;/* Define a largura do contêiner */
+    position: relative;/* Posição relativa */
+    margin: auto;/* Centraliza o contêiner horizontalmente */
+
+}
+
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute;/* Posição absoluta */
+
+    top: 80px;/* A 110px do topo da página */
+
+    right: 400px;/* À direita da página */
+}
+
+/* Estilos para os itens da lista de navegação */
+nav li {
+    display: inline;/* Exibição em linha */
+    margin: 0 0 0 15px;/* Margem na direção direita para espaçamento entre itens */
+}
+
+/* Estilos para os links de navegação */
+nav a {
+    text-transform: uppercase;/* Transforma o texto em maiúsculas */
+    color: #0f0f0f;/* Cor do texto escura */
+    font-weight: bold;/* Fonte em negrito */
+    font-size: 22px;/* Tamanho da fonte 22px */
+    text-decoration: none;/* Remove sublinhado do link */
+}
+
+/* Estilos para os links de navegação quando o mouse passa por cima */
+nav a:hover {
+    color: rgb(0, 0, 0);/* Cor do texto ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilização das listas da página */
+ul {
+    list-style: none;
+/* Remove marcadores de lista */
+}
+
+/*--------------------------> Estilização do banner <------------------------------*/
+
+.banner {
+    width: 100%; /* Define a largura do banner */
+    height: 55%;/* Define a altura do banner */
+}
+
+/* Estilos para a primeira caixa de texto no banner */
+.texto_1 {
+    position: absolute;/* Posição absoluta */
+    top: 38%;/* A 45% do topo do banner */
+    left: 1%; /* A 1% da esquerda do banner */
+    background-color: rgba(124, 79, 5, 0.7); /* Cor de fundo com transparência */
+    color: #fffffe; /* Cor do texto */
+    width: 15%;
+    padding: 100px; /* Preenchimento */
+    text-align: center; /* Alinhamento de texto no centro */
+    backdrop-filter: blur(10px); /* Aplica um desfoque ao plano de fundo */
+    opacity: 0.9; /* Define a transparência da caixa */
+    border-radius: 9%;
+    box-shadow: 10px 10px 5px 0 black;/* cria uma borda no esstilo 3d*/
+}
+
+/* Estilos para a segunda caixa de texto no banner */
+.texto_2 {
+    position: absolute;/* Posição absoluta */
+    top: 38%;/* A 45% do topo do banner */
+    right: 40%; /* A 1% da esquerda do banner */
+    width: 15%;
+    background-color: rgba(116, 77, 5, 0.7);/* Cor de fundo com transparência */
+    color: #fffffe;/* Cor do texto */
+    padding: 100px; /* Preenchimento */
+    text-align: center;/* Alinhamento de texto no centro */
+    backdrop-filter: blur(10px);/* Aplica um desfoque ao plano de fundo */
+    opacity: 0.9;/* Define a transparência da caixa */
+    border-radius: 9%;
+    box-shadow: 10px 10px 5px 0 black;/* cria uma borda no esstilo 3d*/
+}
+
+/* Estilos para a terceira caixa de texto no banner */
+.texto_3 {
+    position: absolute; /* Posição absoluta */
+    top: 38%;/* A 45% do topo do banner */
+    right: 4%;/* A 1% da esquerda do banner */
+    width: 15%;
+    height: 13%;
+    background-color: rgba(116, 77, 5, 0.7);/* Cor de fundo com transparência */
+    color: #fffffe;/* Cor do texto */
+    padding: 100px; /* Preenchimento */
+    text-align: center; /* Alinhamento de texto no centro */
+    backdrop-filter: blur(10px);/* Aplica um desfoque ao plano de fundo */
+    opacity: 0.9;/* Define a transparência da caixa */
+    border-radius: 9%;
+    box-shadow: 10px 10px 5px 0 black;/* cria uma borda no esstilo 3d*/
+}
+
+
+/*--------------------------> Estilização da seção "Sobre a box"  e as abaixo dela <------------------------------*/
+
+
+/* Estilos para as caixas na seção "Sobre a empresa pizzaria" */
+.box_caixa {
+    width: 80px; /* Define a largura */
+    float: left;/* Flutua à esquerda */
+    margin: 0 20px;/* Margem nas direções superior e inferior para espaçamento entre caixas */
+    padding-left: 10%; /* Preenchimento à esquerda */
+}
+
+/* Estilos para o título da seção "Sobre a empresa" */
+.Titulo_box {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    clear: left;/* Limpa a flutuação à esquerda anterior */
+    font-size: 2em;/* Tamanho da fonte 2em */
+    margin: 0;
+    padding: 50px 0 30px 0;/* Define margens e preenchimento */
+}
+
+ 
+.sobre-box {
+    background-color: #fffffe; /* Cor de fundo */
+    width: 100%; /* Define a largura */
+    padding-bottom: 20px; /* Preenchimento inferior */
+    margin: 0;
+}
+
+/* Estilização da seção "Mapa" */
+.mapa {
+    text-align: center;/* Centraliza o texto horizontalmente */
+    background: linear-gradient(#fffffe, #644b06);/* Gradiente de fundo */
+}
+
+
+/* Estilização do footer*/
+
+footer {
+    background-color: #2c2b2a;
+    text-align: center;
+    margin: 0 auto;
+    background: url(footer.png) padding 40px 0 40px 0;
+}
+
+.copyrigth {
+    color: #fffffe;
+    font-size: 12px;
+    margin: 0%;
+}
+
+.logo_footer {
+    width: 10%;
+
+}
+
+
+
+/*-------------------------->Estilização da pagina produtos <------------------------------*/
+
+.bannerP {
+    width: 100%;/* Define a largura do banner */
+
+}
+
+.textoP_1{
+    position: absolute;/* Posição absoluta */
+    top: 18%;/* A 45% do topo do banner */
+    left: -4%; /* A 1% da esquerda do banner */
+    color: #fffffe; /* Cor do texto */
+    width: 100%;
+    height: 43%;
+    padding: 100px; /* Preenchimento */
+    text-align: center; /* Alinhamento de texto no centro */
+    backdrop-filter: blur(10px); /* Aplica um desfoque ao plano de fundo */
+    opacity: 1.0; /* Define a transparência da caixa */
+}
+.paragrafo{
+text-align: center;
+}
+
+.vendas {
+    background: linear-gradient(#ffffff, #522f01, #362801);/* Gradiente de fundo */
+}
+
+
+
+/* Imagem de benefícios */
+.img_cx1 {
+    width: 150px; /* Define a largura da imagem */
+    box-shadow: 10px 10px 5px 0 black; /* cria uma borda no esstilo 3d*/
+    border-radius: 9%;
+    opacity: 1; /* cria um efeito de transparencia na img*/
+    transition: 400ms;
+}
+
+.img_cx1:hover{
+opacity: 0.7;
+}
+
+.img_cx2 {
+    width: 150px; /* Define a largura da imagem */
+    box-shadow: 10px 10px 5px 0 black; /* cria uma borda no esstilo 3d*/
+    border-radius: 9%;
+    opacity: 1; /* cria um efeito de transparencia na img*/
+    transition: 400ms;
+}
+
+.img_cx2:hover{
+opacity: 0.7;
+
+
+}
+.img_cx3 {
+    width: 150px; /* Define a largura da imagem */
+    box-shadow: 10px 10px 5px 0 black; /* cria uma borda no esstilo 3d*/
+    border-radius: 9%;
+    opacity: 1; /* cria um efeito de transparencia na img*/
+    transition: 400ms;
+}
+.img_cx3:hover{
+opacity: 0.7;
+
+}
+
+/* Estilização do footer*/
+
+footer {
+    background-color: #2c2b2a;
+    text-align: center;
+    margin: 0 auto;
+    background: url(footer.png) padding 40px 0 40px 0;
+}
+
+.copyrigth {
+    color: #fffffe;
+    font-size: 12px;
+    margin: 0%;
+}
+
+.logo_footer {
+    width: 10%;
+
+}
