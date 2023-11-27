@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fale.css">
+    <title>E-Box</title>
+</head>
+
+<body>
+
+    <header>
+     
+        <div>
+            <h1 class="logo_estilo">
+                <img src="logo.png" alt="Logo E-Box">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexp.html">Produtos</a></li>
+                    <li><a href="indexc.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1 th:text="${mensagem2}"></h1>
+        <div>
+            <br />
+            <hr>
+            <form action="respostaForm" method="post">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                    <br /><br />
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                    <br /><br />
+                </p>
+                <p>
+                    <label for="sexo">Setor</label>
+                    <input type="text" id="sexo" name="sexo">
+                    <br /><br />
+                </p>
+                <p>
+                    <label for="Cpf">CPF ou CNPJ</label>
+                    <input type="text" id="Cpf" name="Cpf">
+                    <br /><br />
+                </p>
+                <p class="recuo">
+                    <input type="submit" value="Cadastrar">
+                    <br /><br />
+                </p>
+
+            </form>     
+        </div>
+</body>
+</html>

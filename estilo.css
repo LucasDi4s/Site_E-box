@@ -34,7 +34,8 @@ nav {
 
     top: 80px;/* A 110px do topo da página */
 
-    right: 400px;/* À direita da página */
+    right: 100px;/* À direita da página */
+
 }
 
 /* Estilos para os itens da lista de navegação */
@@ -74,11 +75,12 @@ ul {
 /* Estilos para a primeira caixa de texto no banner */
 .texto_1 {
     position: absolute;/* Posição absoluta */
-    top: 38%;/* A 45% do topo do banner */
+    top: 39%;/* A 45% do topo do banner */
     left: 1%; /* A 1% da esquerda do banner */
     background-color: rgba(124, 79, 5, 0.7); /* Cor de fundo com transparência */
     color: #fffffe; /* Cor do texto */
     width: 15%;
+    height: 15%;
     padding: 100px; /* Preenchimento */
     text-align: center; /* Alinhamento de texto no centro */
     backdrop-filter: blur(10px); /* Aplica um desfoque ao plano de fundo */
@@ -90,9 +92,12 @@ ul {
 /* Estilos para a segunda caixa de texto no banner */
 .texto_2 {
     position: absolute;/* Posição absoluta */
-    top: 38%;/* A 45% do topo do banner */
+    top: 39%;/* A 45% do topo do banner */
     right: 40%; /* A 1% da esquerda do banner */
     width: 15%;
+    height: 15%;
+    right:0%;
+    left: 34%;
     background-color: rgba(116, 77, 5, 0.7);/* Cor de fundo com transparência */
     color: #fffffe;/* Cor do texto */
     padding: 100px; /* Preenchimento */
@@ -106,10 +111,10 @@ ul {
 /* Estilos para a terceira caixa de texto no banner */
 .texto_3 {
     position: absolute; /* Posição absoluta */
-    top: 38%;/* A 45% do topo do banner */
+    top: 39%;/* A 45% do topo do banner */
     right: 4%;/* A 1% da esquerda do banner */
     width: 15%;
-    height: 13%;
+    height: 15%;
     background-color: rgba(116, 77, 5, 0.7);/* Cor de fundo com transparência */
     color: #fffffe;/* Cor do texto */
     padding: 100px; /* Preenchimento */

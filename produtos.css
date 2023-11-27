@@ -1,0 +1,218 @@
+/* Definições gerais para o corpo da página */
+body {
+    margin: 0;
+    /* Margem zero */
+
+    padding: 0;
+    /* Preenchimento zero */
+
+    border: 0;
+    /* Borda zero */
+
+    line-height: 1;
+    /* Altura da linha igual a 1 (padrão) */
+
+    font-family: 'Tahoma', 'Arial';
+    /* Fonte da família 'Tahoma' ou 'Arial' */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(255, 255, 255);
+    /* Cor de fundo branca */
+    padding: 0px 0;
+    /* Preenchimento zero nas direções horizontal e vertical */
+    margin: -20px;
+}
+
+/* Estilos para o contêiner do logotipo */
+.logo_estilo {
+
+    width: 1550px;
+    /* Define a largura do contêiner */
+    position: relative;
+    /* Posição relativa */
+    margin: auto;
+    /* Centraliza o contêiner horizontalmente */
+
+}
+
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute;
+    /* Posição absoluta */
+
+    top: 80px;
+    /* A 110px do topo da página */
+
+    right: 100px;
+    /* À direita da página */
+
+}
+
+/* Estilos para os itens da lista de navegação */
+nav li {
+    display: inline;
+    /* Exibição em linha */
+    margin: 0 0 0 15px;
+    /* Margem na direção direita para espaçamento entre itens */
+}
+
+/* Estilos para os links de navegação */
+nav a {
+    text-transform: uppercase;
+    /* Transforma o texto em maiúsculas */
+    color: #0f0f0f;
+    /* Cor do texto escura */
+    font-weight: bold;
+    /* Fonte em negrito */
+    font-size: 22px;
+    /* Tamanho da fonte 22px */
+    text-decoration: none;
+    /* Remove sublinhado do link */
+}
+
+/* Estilos para os links de navegação quando o mouse passa por cima */
+nav a:hover {
+    color: rgb(0, 0, 0);
+    /* Cor do texto ao passar o mouse */
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilização das listas da página */
+ul {
+    list-style: none;
+    /* Remove marcadores de lista */
+}
+
+/* Estilos para o contêiner do logotipo */
+.logo_caixa {
+    width: 1400px;
+    /* Define a largura do contêiner */
+    position: relative;
+    /* Posição relativa */
+    margin: auto;
+    /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilos para o logotipo */
+.logo {
+    width: 50%;
+    /* Largura de 50% do contêiner pai */
+}
+
+/*--------------------------> <------------------------------*/
+
+/* Estilização do banner na parte superior da página */
+.bannerP {
+    width: 100%;
+    /* Define a largura do banner */
+    height: 55%;
+    /* Define a altura do banner */
+}
+
+.TEXTOS_1 {
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+    background-color: #ffffff;
+    /* Cor de fundo */
+    width: 100%;
+    /* Define a largura */
+    padding-bottom: 20px;
+    /* Preenchimento inferior */
+    margin: 0;
+
+
+}
+
+
+.corbox {
+    background: linear-gradient(#fffffe, #644b06);
+    /* Gradiente de fundo */
+
+
+}
+
+.box-hambuguer {
+    margin: 50px;
+
+}
+
+.box-hambuguer .box-content {
+    border-radius: 20px;
+    border: 2px solid #8f710e3a;
+    overflow: hidden;
+    height: 50%;
+    width: 20%;
+    -webkit-box-shadow: 0 0 10px #afafaf;
+    box-shadow: 0 0 10px #afafaf;
+}
+
+.box-hambuguer .box-content .img-hamburguer {
+    width: 105%;
+    height: 50%;
+    -webkit-transition: all .60s;
+    transition: all .60s;
+}
+
+.box-hambuguer .box-content h5 {
+    color: #e7a10b;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box-hambuguer .box-content p {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+}
+
+.box-hambuguer .btn-add {
+    cursor: pointer;
+    background-color: #e7a10b;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: -45px;
+    margin-left: 20%;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+    -webkit-transition: all .40s;
+    transition: all .40s;
+}
+
+.img-hamburguer:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+.texto1 {
+    margin: auto;
+    left: 10%;
+
+}
+
+/* Estilização do footer*/
+
+footer {
+    background-color: #2c2b2a;
+    text-align: center;
+    margin: 0 auto;
+    background: url(footer.png) padding 40px 0 40px 0;
+}
+
+.copyrigth {
+    color: #fffffe;
+    font-size: 12px;
+    margin: 0%;
+}
+
+.logo_footer {
+    width: 10%;
+
+}

@@ -1,0 +1,232 @@
+/* Definições gerais para o corpo da página */
+body {
+    margin: 0;
+    /* Margem zero */
+
+    padding: 0;
+    /* Preenchimento zero */
+
+    border: 0;
+    /* Borda zero */
+
+    line-height: 1;
+    /* Altura da linha igual a 1 (padrão) */
+
+    font-family: 'Tahoma', 'Arial';
+    /* Fonte da família 'Tahoma' ou 'Arial' */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(255, 255, 255);
+    /* Cor de fundo branca */
+    padding: 0px 0;
+    /* Preenchimento zero nas direções horizontal e vertical */
+    margin: -20px;
+}
+
+/* Estilos para o contêiner do logotipo */
+.logo_estilo {
+
+    width: 1550px;
+    /* Define a largura do contêiner */
+    position: relative;
+    /* Posição relativa */
+    margin: auto;
+    /* Centraliza o contêiner horizontalmente */
+
+}
+
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute;
+    /* Posição absoluta */
+
+    top: 80px;
+    /* A 110px do topo da página */
+
+    right: 100px;
+    /* À direita da página */
+
+}
+
+/* Estilos para os itens da lista de navegação */
+nav li {
+    display: inline;
+    /* Exibição em linha */
+    margin: 0 0 0 15px;
+    /* Margem na direção direita para espaçamento entre itens */
+}
+
+/* Estilos para os links de navegação */
+nav a {
+    text-transform: uppercase;
+    /* Transforma o texto em maiúsculas */
+    color: #0f0f0f;
+    /* Cor do texto escura */
+    font-weight: bold;
+    /* Fonte em negrito */
+    font-size: 22px;
+    /* Tamanho da fonte 22px */
+    text-decoration: none;
+    /* Remove sublinhado do link */
+}
+
+/* Estilos para os links de navegação quando o mouse passa por cima */
+nav a:hover {
+    color: rgb(0, 0, 0);
+    /* Cor do texto ao passar o mouse */
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilização das listas da página */
+ul {
+    list-style: none;
+    /* Remove marcadores de lista */
+}
+
+
+
+
+
+/* Estilos para o corpo da página */
+body {
+    background-color: rgb(119, 83, 5);
+    /* Define a cor de fundo do corpo da página */
+}
+
+/* Estilos para o contêiner de fundo */
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+/* Estilos para a forma dentro do contêiner de fundo */
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* Estilos para o formulário */
+form {
+    height: 500px;
+    width: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 66%;
+    left: 80%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px #c08402;
+    padding: 50px 40px;
+    margin-left: -30%;
+    border-radius: 20px;
+    margin-top: 100px;
+    /* Configurações de estilo para o formulário */
+}
+
+/* Estilos para os elementos dentro do formulário */
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    /* Configurações de estilo comuns para os elementos dentro do formulário */
+}
+
+/* Estilos para o título do formulário */
+form h3 {
+    font-size: 28px;
+    height: 3%;
+    text-align: center;
+    /* Configurações de estilo para o título do formulário */
+}
+
+/* Estilos para as etiquetas dentro do formulário */
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Estilos para os campos de entrada no formulário */
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Estilos para o texto de espaço reservado nos campos de entrada */
+::placeholder {
+    color: #e5e5e5;
+    /* Configurações de estilo para o texto de espaço reservado nos campos de entrada */
+}
+
+/* Estilos para o botão no formulário */
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Configurações de estilo para o botão no formulário */
+}
+
+/* Estilos para a seção à direita da página */
+.direita {
+    height: 82%;
+    width: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 180%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px #5eff00;
+    padding: 50px 40px;
+    margin-left: 100%;
+    border-radius: 20px;
+    /* Configurações de estilo para a seção à direita da página */
+}
+/* Estilização do footer*/
+
+footer {
+    background-color: #2c2b2a;
+    text-align: center;
+    margin: 0 auto;
+    background: url(footer.png) padding 40px 0 40px 0;
+}
+
+.copyrigth {
+    color: #fffffe;
+    font-size: 12px;
+    margin: 0%;
+}
+
+.logo_footer {
+    width: 10%;
+
+}
+
